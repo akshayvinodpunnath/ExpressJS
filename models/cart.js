@@ -1,6 +1,9 @@
-const Sequelize = require('sequelize');
+const mongodb = require('mongodb');
+const getDb = require ('../util/database').getDb; 
 
-const sequelize = require('../util/database');
+class Cart {
+
+}
 
 const Cart = sequelize.define('cart', {
   id: {
